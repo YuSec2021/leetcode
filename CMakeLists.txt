@@ -7,4 +7,8 @@ add_executable(leetcode main.cpp
         MergeArray.cpp
         MergeArray.h
         RemoveElement.cpp
-        RemoveElement.h)
+        RemoveElement.h
+        RemoveRepeatSortedArray.cpp
+        RemoveRepeatSortedArray.h
+        AddBinary.cpp
+        AddBinary.h)
