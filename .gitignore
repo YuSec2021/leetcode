@@ -33,3 +33,4 @@
 
 # directory by clion
 /cmake-build-debug/
+/googletest-1.15.2/

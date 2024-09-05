@@ -1,12 +1,20 @@
+#include "MajorityElement.h"
+#include "Rotate.h"
+#include <vector>
 #include <iostream>
-#include "MergeArray.h"
+using namespace std;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    MergeArray* m = new MergeArray();
-    vector<int> nums1 = {4,0,0,0,0,0};
-    vector<int> nums2 = {1,2,3,5,6};
-    // m->merge1(nums1, 3, nums2, 3);
-    m->merge3(nums1, 1, nums2, 5);
-    return 0;
+
+void TestRotate() {
+    vector<int> nums = {1,2,3,4,5,6,7};
+    Rotate* r = new Rotate();
+    // r->rotate2(nums, 3);
+    r->rotate(nums, 3);
+
+}
+
+void TestRotate2() {
+    vector<int> nums = {1,2,3,4,5,6,7};
+    Rotate* r = new Rotate();
+    r->rotate2(nums, 3);
 }

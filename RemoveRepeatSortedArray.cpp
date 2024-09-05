@@ -30,3 +30,22 @@ int RemoveRepeatSortedArray::removeDuplicates2(vector<int>& nums) {
     }
     return nums.size();
 }
+
+
+int RemoveRepeatSortedArray::removeDuplicates3(vector<int>& nums) {
+    bool flag = false;
+    for (auto iter = nums.begin(); iter != nums.end() - 1;) {
+        if (*iter == *(iter+1)) {
+            if (flag) {
+                iter = nums.erase(iter);
+            } else {
+                flag = true;
+                iter ++;
+            }
+        } else {
+            flag = false;
+            iter ++;
+        }
+    }
+    return nums.size();
+}
