@@ -13,3 +13,5 @@
 9. 买卖股票的最佳时机2 【中等】-MaxProfit::maxProfit4 - 动态规划
 10. 跳跃游戏 【中等】 - CanJump::canJump - 动态规划
 11. 跳跃游戏Ⅱ 【中等】 - CanJump::canJump2 and CanJump::canJump3 - 贪心算法
+12. 加油站【中等】- CanCompleteCirsuit::canCompleteCircuit - 贪心算法
+13. 最大数【中等】- LargestNumber::largestNumber - 利用sort函数直接进行字符串对比后的快速排序
