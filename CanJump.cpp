@@ -4,8 +4,6 @@
 
 #include "CanJump.h"
 
-#include <bemapiset.h>
-
 bool CanJump::canJump(vector<int> &nums) {
     /*
      *  maxStep用来存储当前可以走到的最远距离，通过循环来更新

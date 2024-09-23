@@ -30,7 +30,13 @@ add_executable(leetcode main.cpp
         CanJump.h
         test/testJUMP.cpp
         Tanxin.cpp
-        test/testTanxin.cpp)
+        test/testTanxin.cpp
+        test/test_Circuit.cpp
+        test/test_Circuit.cpp
+        CanCompleteCircuit.cpp
+        LargestNumber.cpp
+        test/test_Largest.cpp
+)
 
 add_subdirectory(./googletest-1.15.2)
 include_directories(${PROJECT_SOURCE_DIR}/src/include ./googletest1.15.2/include)
