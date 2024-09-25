@@ -36,6 +36,9 @@ add_executable(leetcode main.cpp
         CanCompleteCircuit.cpp
         LargestNumber.cpp
         test/test_Largest.cpp
+        RemoveDuplicateLetters.cpp
+        RemoveDuplicateLetters.h
+        test/test_removeDuplicate.cpp
 )
 
 add_subdirectory(./googletest-1.15.2)
