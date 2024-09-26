@@ -4,20 +4,20 @@ project(leetcode)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(leetcode main.cpp
-        MergeArray.cpp
-        MergeArray.h
-        RemoveElement.cpp
-        RemoveElement.h
-        RemoveRepeatSortedArray.cpp
-        RemoveRepeatSortedArray.h
-        AddBinary.cpp
-        AddBinary.h
-        MajorityElement.cpp
-        MajorityElement.h
-        Rotate.cpp
-        Rotate.h
-        MaxProfit.cpp
-        MaxProfit.h
+        program/MergeArray.cpp
+        program/MergeArray.h
+        program/RemoveElement.cpp
+        program/RemoveElement.h
+        program/RemoveRepeatSortedArray.cpp
+        program/RemoveRepeatSortedArray.h
+        program/AddBinary.cpp
+        program/AddBinary.h
+        program/MajorityElement.cpp
+        program/MajorityElement.h
+        program/Rotate.cpp
+        program/Rotate.h
+        program/MaxProfit.cpp
+        program/MaxProfit.h
         test/testRotate.cpp
         test/testMain.cpp
         test/testMaxProfit.cpp
@@ -26,18 +26,18 @@ add_executable(leetcode main.cpp
         alg/DynamicProgramming.cpp
         alg/DynamicProgramming.h
         test/testAlg.cpp
-        CanJump.cpp
-        CanJump.h
+        program/CanJump.cpp
+        program/CanJump.h
         test/testJUMP.cpp
         Tanxin.cpp
         test/testTanxin.cpp
         test/test_Circuit.cpp
         test/test_Circuit.cpp
-        CanCompleteCircuit.cpp
-        LargestNumber.cpp
+        program/CanCompleteCircuit.cpp
+        program/LargestNumber.cpp
         test/test_Largest.cpp
-        RemoveDuplicateLetters.cpp
-        RemoveDuplicateLetters.h
+        program/RemoveDuplicateLetters.cpp
+        program/RemoveDuplicateLetters.h
         test/test_removeDuplicate.cpp
 )
 

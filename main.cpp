@@ -1,5 +1,5 @@
-#include "MajorityElement.h"
-#include "Rotate.h"
+#include "program/MajorityElement.h"
+#include "program/Rotate.h"
 #include <vector>
 #include <iostream>
 using namespace std;

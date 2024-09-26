@@ -4,7 +4,7 @@
 
 #include "gtest/gtest.h"
 #include <vector>
-#include "../Rotate.h"
+#include "../program/Rotate.h"
 
 
 using namespace std;

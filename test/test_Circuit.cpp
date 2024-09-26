@@ -3,7 +3,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "../CanCompleteCircuit.h"
+#include "../program/CanCompleteCircuit.h"
 
 TEST(TestCase, Circuit) {
     CanCompleteCircuit c;

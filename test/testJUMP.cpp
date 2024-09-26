@@ -3,7 +3,7 @@
 //
 
 #include "gtest/gtest.h"
-#include "../CanJump.h"
+#include "../program/CanJump.h"
 #include <iostream>
 
 using namespace std;

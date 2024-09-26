@@ -2,7 +2,7 @@
 // Created by YuSec on 2024/9/6.
 //
 
-#include "../MaxProfit.h"
+#include "../program/MaxProfit.h"
 #include "gtest/gtest.h"
 
 TEST(DISABLE_TestCase, testmaxprofit) {
